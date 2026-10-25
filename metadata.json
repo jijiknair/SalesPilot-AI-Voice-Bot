@@ -1,0 +1,6 @@
+{
+  "name": "SalesPilot AI - Voice Sales Bot",
+  "description": "Real-time AI voice sales agent for FlowCRM that conducts live two-way customer conversations, handles objections, provides automated call summaries, and classifies sales lead status.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

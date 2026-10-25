@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-25T05:50:01.303Z",
+  "checks": [
+    {
+      "feature": "chat-turn",
+      "status": 200,
+      "data": {
+        "reply": "I don't have verified details on our exact monthly pricing per user right now. I can note your request in my summary so a human team member can follow up with those specific numbers. Would you like me to include that for you?",
+        "model": "gemini-3.8-flash"
+      },
+      "ms": 5951
+    },
+    {
+      "feature": "chat-turn",
+      "status": 200,
+      "data": {
+        "reply": "Automated follow-up reminders prompt your team with scheduled tasks and timely outreach alerts, ensuring no lead slips through the cracks. Paired with a comprehensive interaction history, your reps always know exactly when and why to reach out next. Is keeping up with timely outreach a challenge your team is currently facing?",
+        "model": "gemini-3.8-flash"
+      },
+      "ms": 5707
+    },
+    {
+      "feature": "chat-turn",
+      "status": 200,
+      "data": {
+        "reply": "I understand and will note your request for confirmed pricing next week in my call summary, with no commitment to a demo or purchase. Since I cannot schedule follow-ups directly, a human team member will need to review and confirm reaching out to you. Thank you for your time, and have a great rest of your day.",
+        "model": "gemini-3.8-flash"
+      },
+      "ms": 6079
+    },
+    {
+      "feature": "summary",
+      "status": 200,
+      "data": {
+        "conversationSummary": "The customer inquired about exact monthly pricing per user and learned about automated follow-up reminders to avoid missed opportunities. Due to pricing details being unavailable during the call, the customer cited unclear pricing as an objection. The customer explicitly requested a follow-up next week with confirmed pricing while declining a demo or purchase at this time.",
+        "customerRequirements": [
+          "Automated follow-up reminders for team outreach"
+        ],
+        "customerObjections": [
+          "Unclear pricing"
+        ],
+        "recommendedNextSteps": [
+          "Have a sales representative follow up next week with confirmed monthly per-user pricing details"
+        ],
+        "finalSalesStatus": "Follow-up Required",
+        "companyName": "",
+        "customerName": "Prospect",
+        "leadScore": 55,
+        "analysisSource": "ai"
+      },
+      "ms": 6654
+    },
+    {
+      "feature": "no-response",
+      "status": 200,
+      "data": {
+        "conversationSummary": "No customer response was transcribed during this call.",
+        "customerRequirements": [],
+        "customerObjections": [],
+        "recommendedNextSteps": [],
+        "finalSalesStatus": "No Response",
+        "leadScore": 0,
+        "analysisSource": "empty"
+      },
+      "ms": 12
+    },
+    {
+      "feature": "real-generated-speech",
+      "status": 200,
+      "ms": 4542,
+      "mimeType": "audio/wav",
+      "bytes": 904676,
+      "header": "52494646dccd0d0057415645",
+      "note": "Not played, stored as a call recording, or substituted for captured microphone audio."
+    },
+    {
+      "feature": "live-bridge-greeting-and-transcription",
+      "ready": true,
+      "audioBytes": 556802,
+      "aiText": "Hello! I'm Alex, your AI sales assistant from FlowCRM. We help businesses manage customer leads and sales more efficiently. May I ask how you currently manage your customers and follow-ups?",
+      "finished": true,
+      "note": "Real Gemini Live audio/transcript received. No microphone uplink, audible playback, or real voice conversation verified."
+    },
+    {
+      "feature": "live-bridge-specific-questions",
+      "questions": [
+        "What is the exact monthly price per user? Please answer that question directly.",
+        "How do automated follow-up reminders help the team?"
+      ],
+      "turns": [
+        {
+          "text": "Hello! I'm Alex, your AI sales assistant from FlowCRM. We help businesses manage customer leads and sales more efficiently. May I ask how you currently manage your customers and follow-ups?",
+          "audioBytes": 542882
+        },
+        {
+          "text": "I do not have verified information regarding exact pricing per user. May I have a human contact you with the confirmed details?",
+          "audioBytes": 357120
+        },
+        {
+          "text": "Automated follow-up reminders ensure your team never misses a task or lead, keeping your sales pipeline moving efficiently. Would you like to know how these reminders integrate with our deal pipelines?",
+          "audioBytes": 504960
+        }
+      ],
+      "note": "Actual text-input-to-speech Gemini Live exchanges, without microphone capture or audible playback. No call records saved."
+    }
+  ],
+  "diagnosticConversation": [
+    {
+      "sender": "customer",
+      "text": "What is the exact monthly price per user for FlowCRM? Please answer my pricing question directly."
+    },
+    {
+      "sender": "ai",
+      "text": "I don't have verified details on our exact monthly pricing per user right now. I can note your request in my summary so a human team member can follow up with those specific numbers. Would you like me to include that for you?"
+    },
+    {
+      "sender": "customer",
+      "text": "How do the automated follow-up reminders help avoid missed sales opportunities?"
+    },
+    {
+      "sender": "ai",
+      "text": "Automated follow-up reminders prompt your team with scheduled tasks and timely outreach alerts, ensuring no lead slips through the cracks. Paired with a comprehensive interaction history, your reps always know exactly when and why to reach out next. Is keeping up with timely outreach a challenge your team is currently facing?"
+    },
+    {
+      "sender": "customer",
+      "text": "I need automated follow-up reminders for my team. Unclear pricing is an objection for me. Please follow up next week with confirmed pricing; I am not agreeing to a demo or purchase."
+    },
+    {
+      "sender": "ai",
+      "text": "I understand and will note your request for confirmed pricing next week in my call summary, with no commitment to a demo or purchase. Since I cannot schedule follow-ups directly, a human team member will need to review and confirm reaching out to you. Thank you for your time, and have a great rest of your day."
+    }
+  ],
+  "note": "Real Gemini API requests; diagnostic text exchange only. No call records or substitute recordings were saved."
+}
